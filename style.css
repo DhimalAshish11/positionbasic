@@ -1,0 +1,24 @@
+/* position: static, initial, inherit, relative, absolute, fixed sticky */
+
+.parent {
+  background-color: grey;
+  min-height: 40px;
+  padding: 1rem;
+}
+.parent > div {
+  min-height: 150px;
+  color: white;
+}
+.c1 {
+  background: red;
+}
+.c2 {
+  background: green;
+  position: sticky;
+  top: 0px;
+  /* left: 50px;
+  bottom: 50px; */
+}
+.c3 {
+  background: blue;
+}
